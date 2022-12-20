@@ -1,0 +1,15 @@
+
+
+
+
+.movie-view {
+  background-color: white;
+  text-align: center;
+}
+.app-container {
+  background: linear-gradient(180deg, rgb(23, 22, 23), rgba(43, 43, 43, 0.79));
+  background-attachment: fixed;
+  backdrop-filter: blur(10px);
+  color: #000000;
+}
+/*# sourceMappingURL=index.17d663fa.css.map */
