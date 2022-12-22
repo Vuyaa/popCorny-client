@@ -19,18 +19,18 @@ export class MovieView extends React.Component {
           <div className="movie-poster">
             <img height="800px" width="400px" className='img-fluid shadow-10' src={movie.ImagePath} crossOrigin="Anonymous" />
           </div>
-          <div className="movie-title">
-            <span className="label">Title:</span>
-            <span className="value">{movie.Title}</span>
+          <div className="text">
+            <span className="genre" >{movie.Genre.Name}</span>
+            <span className="title">{movie.Title}</span>      
           </div>
           <div className="movie-description">
-            <span className="label">Description:</span>
+            <span className="label"></span>
             <span className="value">{movie.Description}</span>
           </div>
-          <div className="movie-genre">
-            <span className="label">Genre:</span>
-            <span className="value">{movie.Genre.Name}</span>
-          </div>
+
+
+            
+          
           
           <Button
             className="favorite-button mt-2"
@@ -43,7 +43,7 @@ export class MovieView extends React.Component {
               className="back-button mt-2"
               variant="secondary"
               onClick={() => {
-                onBackClick();
+              onBackClick();
               }}
             >
               Back

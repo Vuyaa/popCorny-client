@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { Trash } from "react-bootstrap-icons";
 
 // Import React Bootstrap Components
 import Form from "react-bootstrap/Form";
@@ -12,6 +13,8 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { Figure } from "react-bootstrap";
 
+
+import './profile-view.scss';
 
 export default class ProfileView extends React.Component {
     constructor() {
@@ -280,19 +283,19 @@ export default class ProfileView extends React.Component {
             </Row>
             <Row>
               {myFavoritesMovies.map((movie) => (
-                <Col key={movie._id} className="fav-movie">
-                  <Figure>
+                <Col lg={2} md={3} sm={6} xs={12} key={movie._id} className="fav-movie" >
+                  <Figure className="figure-1">
                     <Link to={`/movies/${movie._id}`}>
-                      <Figure.Image height="400px" width="200px" crossOrigin="anonymous" src={movie.ImagePath} alt={movie.Title} />
+                      <Figure.Image height="226px"  crossOrigin="anonymous" src={movie.ImagePath} alt={movie.Title} />
                       <Figure.Caption>{movie.Title}</Figure.Caption>
                     </Link>
                   </Figure>
-                  <Button
+                  <Button                             
                     className="remove"
-                    variant="secondary"
+                    variant="danger"
                     onClick={()=>{this.onRemoveFavorite(movie._id)}}
                   >
-                    Remove from the list
+                   <Trash/>
                   </Button>
                 </Col>
               ))}

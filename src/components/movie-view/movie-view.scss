@@ -7,3 +7,31 @@
     background-color: rgb(255, 0, 0) !important;
  } 
 
+
+ .movie-poster{
+        background: linear-gradient(180deg, rgb(23, 22, 23), rgba(43, 43, 43, 0.79));
+        background-attachment: fixed;
+        backdrop-filter: blur(10px);
+        color: #000000;
+ }
+
+
+.movie-view{
+    border-radius: 10%;
+}
+
+.text{
+    border-bottom: 1px solid rgb(114, 111, 111);
+    box-shadow: 20px 15px 20px -15px #111 !important;   
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.genre{
+    width: 44%;
+    text-align: left;
+}

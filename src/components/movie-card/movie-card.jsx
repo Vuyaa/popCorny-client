@@ -20,7 +20,7 @@ export class MovieCard extends React.Component {
           <Card.Title>{movie.Title}</Card.Title>
           <Card.Text className='text-truncate mb-2'>{movie.Description}</Card.Text>
           <Link to={`/movies/${movie._id}`}>
-            <Button className='mb-1' variant="link">Open</Button>
+            <Button className='mb-1' >Open</Button>
           </Link>
         </Card.Body>
       </Card>
