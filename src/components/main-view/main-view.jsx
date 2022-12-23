@@ -13,7 +13,7 @@ import ProfileView from "../profile-view/profile-view";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
+import { Navbar } from "../navigation-bar/navigation-bar";
 import "./main-view.scss";
 
 export class MainView extends React.Component {
