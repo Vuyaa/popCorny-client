@@ -13,7 +13,7 @@ import ProfileView from "../profile-view/profile-view";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Navbar } from "../navigation-bar/navigation-bar";
+import { Header } from "../navigation-bar/navigation-bar";
 import "./main-view.scss";
 
 export class MainView extends React.Component {
@@ -129,7 +129,7 @@ export class MainView extends React.Component {
     const { movies, user, favoriteMovies } = this.state;
     return (
       <Router>
-        <Navbar user={user} />
+        <Header user={user} />
         <Row className="justify-content-center mr-1 ml-1">
           <Route
             exact
