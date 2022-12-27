@@ -6,18 +6,18 @@
 .favorite-button:not(:disabled):not(:disabled):focus {
     background-color: rgb(255, 0, 0) !important;
  } 
+ 
 
 
  .movie-poster{
-        background: linear-gradient(180deg, rgb(23, 22, 23), rgba(43, 43, 43, 0.79));
-        background-attachment: fixed;
-        backdrop-filter: blur(10px);
-        color: #000000;
+    background-color: rgba(38, 29, 29, 0.737);
+    background-image: url("https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&w=1000&q=80");
  }
 
 
 .movie-view{
     border-radius: 10%;
+    box-shadow: 10px 10px 10px 10px rgba(42, 34, 34, 0.668);
 }
 
 .text{

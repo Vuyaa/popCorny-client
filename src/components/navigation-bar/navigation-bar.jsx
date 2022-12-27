@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
 
+
 import './navigation-bar.scss'
 
 export function Header({ user }) {
@@ -32,6 +33,7 @@ export function Header({ user }) {
         <Navbar.Brand className="navbar-logo" href="/">
          popCorny
         </Navbar.Brand>
+        
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
