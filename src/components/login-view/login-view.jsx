@@ -99,7 +99,7 @@ const validate = () => {
       </Button>
       
         <Link to="/register">
-          <Button>Register</Button>
+          <Button className='register-button mt-2 mr-2'>Register</Button>
      </Link>
     
     </Form>
