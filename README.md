@@ -1,5 +1,5 @@
 ## Movie card Screenshot:
-<img src="[https://vuyaa.github.io/portfolio-website/img/popcorny2.png](https://vuyaa.github.io/Bruno-Portfolio/images/react3.png)">
+<img src="https://vuyaa.github.io/Bruno-Portfolio/images/react3.png">
 
 
 
